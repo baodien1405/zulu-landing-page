@@ -1,0 +1,12 @@
+.banner {
+  display: flex;
+  align-items: center;
+
+  &-info {
+    width: 35%;
+  }
+
+  &-image {
+    width: 35%;
+  }
+}

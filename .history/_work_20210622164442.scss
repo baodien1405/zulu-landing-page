@@ -1,0 +1,10 @@
+.work {
+  padding-top: 145px;
+  padding-bottom: 50px;
+
+  &-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

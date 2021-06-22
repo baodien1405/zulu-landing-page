@@ -1,0 +1,32 @@
+.work {
+  padding-top: 145px;
+  padding-bottom: 50px;
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-item {
+    width: calc(33.33% - 46.67px);
+    padding: 40px 30px;
+    border: 1px solid $gray-line;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.4px;
+  }
+
+  &-image {
+    // display: inline-block;
+    margin-bottom: 35px;
+    max-height: 115px;
+  }
+
+  &-title {
+
+  }
+}
