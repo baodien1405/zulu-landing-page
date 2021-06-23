@@ -1,0 +1,52 @@
+.started {
+  max-width: 900px;
+  margin: 100px auto 70px;
+  border-radius: 30px;
+  background-color: #fbfbfb;
+  position: relative;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  &-caption {
+    margin-bottom: 20px;
+  }
+
+  &-heading {
+    margin-bottom: 30px;
+  }
+
+  &-desc {
+    max-width: 245px;
+    margin-bottom: 50px;
+    color: $gray-dark;
+  }
+
+  &-comment {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+  }
+
+  &-smile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+  }
+
+  @media screen and (max-width: 767px) {
+    &-comment {
+      bottom: 50px;
+      left: 10px;
+      width: 70px;
+    }
+
+    &-smile {
+      width: 60px;
+      transform: translate(20%, 50%);
+    }
+  }
+}

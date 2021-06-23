@@ -33,4 +33,53 @@
       padding-right: 25px;
     }
   }
+
+  @media screen and (max-width: 1279px) {
+    &-heading {
+      font-size: 45px;
+      margin-bottom: 30px;
+    }
+
+    &-image {
+      transform: translateX(20px);
+    }
+
+    &-desc {
+      margin-bottom: 30px;
+    }
+
+    &-links {
+      .button {
+        padding: 15px 20px;
+      }
+      .button:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    flex-direction: column;
+
+    & > * {
+      width: 100%;
+    }
+
+    .banner-image {
+      transform: none;
+      margin-top: 25px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    padding-top: 30px;
+
+    &-heading {
+      font-size: 30px;
+      margin-bottom: 15px;
+
+      span {
+        display: unset;
+      }
+    }
+  }
 }
